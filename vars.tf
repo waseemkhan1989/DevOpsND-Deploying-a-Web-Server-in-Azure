@@ -9,13 +9,13 @@ variable "numvm" {
 variable "prefix" {
   description = "The prefix which should be used for all resources in this example"
   type = string
-  default = "DP-project#1"
+  default = "DevOps-Project1"
 }
 
 variable "location" {
   description = "The Azure Region in which all resources in this example should be created."
   type = string
-  default = "eastus"
+  default = "southcentralus"
 }
 variable "username" {
   description = "User for the VM"

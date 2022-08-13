@@ -6,7 +6,7 @@
     
     "description": "Enforces a required tag and its value. Does not apply to resource groups.",
     "metadata": {
-      "createdBy": "Umair.R"
+      "createdBy": "Waseem Khan"
     },
     "policyRule": {
       "if": {
