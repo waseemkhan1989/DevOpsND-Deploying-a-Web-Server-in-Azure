@@ -65,8 +65,8 @@ terrform apply "<outfilename>"
 ## Expected Output ##
 
 -For tagging policy expected output is:
-![Alt text](./az-Tagging Policy1.PNG?raw=true "Figure1:Screenshot shows tagging policy output")
-![Alt text](./az-Tagging Policy2.PNG?raw=true "Figure2:Screenshot shows tagging policy output")
+![Alt text](./az-Tagging Policy1.png?raw=true "Figure1:Screenshot shows tagging policy output")
+![Alt text](./az-Tagging Policy2.png?raw=true "Figure2:Screenshot shows tagging policy output")
 
 
 - Sample output from terraform apply looks like :
