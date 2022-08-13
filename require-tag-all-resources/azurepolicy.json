@@ -1,0 +1,21 @@
+{
+  "type":"custom",
+  "properties": {
+    "displayName": "tagging-policy Deny untagged resources",
+    "mode": "Indexed",
+    
+    "description": "Enforces a required tag and its value. Does not apply to resource groups.",
+    "metadata": {
+      "createdBy": "Umair.R"
+    },
+    "policyRule": {
+      "if": {
+          "field": "['tags']",
+          "exists": "false"
+      },
+      "then": {
+        "effect": "deny"
+      }
+    }
+  }
+}
